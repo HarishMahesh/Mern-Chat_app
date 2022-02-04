@@ -1,0 +1,50 @@
+.message-other-user {
+  display: flex;
+  gap: 3px;
+  margin-right: 40px;
+}
+
+.message-other-user > div {
+  max-width: 40px;
+  max-height: 40px;
+}
+
+.message-other-user > div img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-position: center;
+  object-fit: cover;
+}
+
+.message-other-user > p {
+  margin: 0px;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #b9f4bc;
+  border-radius: 10px;
+}
+
+.message-same-user {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 40px;
+}
+
+.message-same-user > p {
+  margin: 0px;
+  padding: 7px;
+  padding-left: 12px;
+  padding-right: 12px;
+  background-color: #b7def6;
+  border-radius: 10px;
+}
+
+.last-message-margin {
+  margin-bottom: 10px;
+}
+
+.previous-message-margin {
+  margin-left: 40px;
+}

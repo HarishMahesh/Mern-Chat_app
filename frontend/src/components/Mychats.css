@@ -1,0 +1,72 @@
+.mychats-container {
+  height: 100%;
+  width: 36%;
+  background-color: white;
+  padding: 10px;
+  padding-left: 15px;
+}
+
+.mychats-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.mychats-header > span {
+  font-size: 27px;
+}
+
+.mychats-chatlist {
+  height: 87%;
+  width: 100%;
+  overflow: auto;
+  background-color: #f3f3f37d;
+  margin-top: 15px;
+  padding: 8px;
+}
+
+.single-chat-list {
+  padding: 8px;
+  background-color: #e8e8e8;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.single-chat-list > p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.isSelected {
+  background-color: teal;
+  color: white;
+}
+
+.chats-list-latest-message {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: smaller;
+  font-weight: normal !important;
+}
+
+.chats-list-latest-message > b {
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  .mychats-container {
+    width: 100%;
+  }
+
+  .changeDispaly {
+    display: none;
+  }
+}
+
+@media (max-width: 430px) {
+  .mychats-header > span {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,22 @@
+.selected-users-conatiner {
+  display: flex;
+  padding: 8px;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.selected-users-conatiner > div {
+  padding: 5px;
+  background-color: #41545bf5;
+  color: white;
+  font-size: medium;
+  border-radius: 5px;
+}
+
+.selected-users-conatiner > div > span {
+  margin-right: 10px;
+}
+
+.selected-user-close-icon {
+  cursor: pointer;
+}

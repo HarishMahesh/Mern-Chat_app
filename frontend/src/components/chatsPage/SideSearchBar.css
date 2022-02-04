@@ -1,0 +1,12 @@
+.sidebar-search-container > input {
+  margin-right: 10px;
+  width: 70%;
+  padding: 6px;
+  border-style: none;
+  border: 1px solid #90a3b68f;
+  margin-bottom: 5px;
+}
+
+.results-container {
+  overflow: auto;
+}
